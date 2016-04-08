@@ -10,6 +10,7 @@ alias docview='evince'
 alias psag='ps aux | grep'
 alias tarball='tar cvzf' 
 alias home='cd ~'
+alias cdot='cd ~/.dotfiles'
 
 alias u='sudo apt-get update && sudo apt-get dist-upgrade'
 alias au='sudo apt-get update'
@@ -25,10 +26,13 @@ alias ...='cd ../..'
 
 # CS 362 Aliases
 alias cshome='cd ~/cs362sp16core'
-alias csdom='cd ~/cs362sp16core/dominion'
-alias domc='vim ~/cs362sp16core/dominion/dominion.c'
-alias domh='vim ~/cs362sp16core/dominion/dominion.h'
 alias hw='docview ~/cs362sp16core/assignments/assignments.pdf'
+#alias csdom='cd ~/cs362sp16core/dominion'
+#alias domc='vim ~/cs362sp16core/dominion/dominion.c'
+#alias domh='vim ~/cs362sp16core/dominion/dominion.h'
+alias csdom='cd ~/cs362sp16_ovesenk/dominion'
+alias domc='vim ~/cs362sp16_ovesenk/dominion/dominion.c'
+alias domh='vim ~/cs362sp16_ovesenk/dominion/dominion.h'
 
 
 # newly update tar should do the same thing
